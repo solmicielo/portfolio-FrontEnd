@@ -1,7 +1,57 @@
-body{background-color: bisque;}
+*{
+    box-sizing: border-box;
+}
 
-h1{ font-size: 30px; color:blueviolet;}
+body{margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
 
-p{color:MediumSlateBlue;} 
-.grande{ font-size:100px;}
-.mayuscula{text-transform: uppercase;}
+header{
+    padding: 50px;
+    background-color: blue;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;  
+
+}
+
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    background-color: brown;
+}
+
+nav img{
+    max-height: 90px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section{
+    background-color: bisque;
+    margin-bottom: 25px 0;
+    flex: 100%;
+    padding: 10px;
+   
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+   
+
+
