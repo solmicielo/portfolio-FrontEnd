@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portafolio web</title>
+    <link rel="icon" href="img/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style-portfolio.css" type="text/css">
   </head>
   <body>
     <!--inicio del menu --> 
-    <nav class="navbar navbar-dark bg-dark  navbar-expand-lg ">
+    <nav class="navbar fixed-top navbar-dark bg-dark  navbar-expand-lg ">
       <div class="container-fluid">
         
         <!--Logo Argentina Programa --> 
@@ -30,20 +31,19 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiencia</a>
+              <a class="nav-link" href="#Experiencia">Experiencia</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Formacion">Formación & Skills</a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            
             
           </ul>
 
@@ -89,7 +89,7 @@
     </nav>
     <div class="container">
       <!--Cabecera-->
-      <header class="row align-items-center header-main justify-content-center " >
+      <header class="row align-items-center header-main justify-content-center mb-5" >
         <div class="  col-md-6  text-center text-md-start   ">
           <h1 >Hola, Soy June Smith </h1>
           <h2 ><strong>Desarrolladora Full Stack</strong></h2>
@@ -102,14 +102,201 @@
         </div>
   
 
-      </header>    
+      </header> 
+      <!--Experiencia-->
+      <section class="row justify-content-center align-items-center " id="Experiencia">
+
+        <h2 class="col-12 text-center text-capitalize my-5">Experiencia Laboral</h2>
+        <div class="card col-7 col-md-10  mb-4" style="max-width: 650px;">
+        <div class="row ">
+          <div class="col-md-4 align-self-center p-0 ">
+            <img src="img/trabajo-n1.jpg" class="img-fluid tarjeta " alt="Experiencia Laboral 1">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">Nombre de la empresa</h3>
+              <h4 class="text-uppercase fs-6"><strong>Cargo del puesto</strong></h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Desde fecha Hasta Fecha</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card col-7 col-md-10  mb-4" style="max-width: 650px;">
+        <div class="row ">
+          <div class="col-md-4 align-self-center p-0 ">
+            <img src="img/trabajo-n2.jpg" class="img-fluid tarjeta " alt="Experiencia Laboral 1">
+          </div>
+            <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">Nombre de la empresa</h3>
+              <h4 class="text-uppercase fs-6"><strong>Cargo del puesto</strong></h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Desde fecha Hasta Fecha</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card col-7 col-md-10  mb-4" style="max-width:650px;">
+        <div class="row ">
+          <div class="col-md-4 align-self-center p-0 ">
+            <img src="img/trabajo-n3.jpg" class="img-fluid tarjeta " alt="Experiencia Laboral 1">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">Nombre de la empresa</h3>
+              <h4 class="text-uppercase fs-6"><strong>Cargo del puesto</strong></h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Desde fecha Hasta Fecha</small></p>
+            </div>
+          </div>
+        </div>
+      </div>       
+      </section>
+      <!--Formacion-->
+      <section class="row justify-content-center align-items-center " id="Formacion">
+        <h2 class="col-12 text-center text-capitalize my-5">Formación y Skills</h2>
+        <article class="col-10 col-md-10 col-lg-3 bg-light rounded shadow p-3 fw-light text-center mb-5">
+          <i class="bi bi-filetype-html fs-1 text-primary mb-3 " ></i>
+          <h3 class="text-uppercase fs-6"><strong>Esto es un Curso</strong> </h3>
+          <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ratione ipsa facere ut repellendus soluta laboriosam suscipit.</p>
+        </article>
+
+        <article class="col-10 col-md-10 col-lg-3 bg-light rounded shadow p-3 fw-light text-center mb-5">
+          <i class="bi bi-filetype-css fs-1 text-warning mb-3 " ></i>
+          <h3 class="text-uppercase fs-6"><strong>Esto es un Curso</strong> </h3>
+          <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ratione ipsa facere ut repellendus soluta laboriosam suscipit.</p>
+        </article>
+
+        <article class="col-10 col-md-10 col-lg-3 bg-light rounded shadow p-3 fw-light text-center mb-5 ">
+          <i class="bi bi-filetype-js fs-1 text-danger mb-3 " ></i>
+          <h3 class="text-uppercase fs-6"><strong>Esto es un Curso</strong> </h3>
+          <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ratione ipsa facere ut repellendus soluta laboriosam suscipit.</p>
+        </article>                   
+
+      </section>
+
+      <!--Skills-->
+      <section class="row justify-content-center  align-items-center my-5" id="skills" >
+        <div class="row justify-content-center  align-items-center">
+          <div class="col-lg-6 photo-frame position-relative  espacio">
+            <img src="img/skills.png" alt=" una foto " class="w-100" />
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="display-5 text-primary my-4"> June Smith</h3>
+
+            <div class="mb-3">
+              <label > HTML & CSS</label>
+              <div class="progress">
+                <div class="progress-bar bg-primary" style="width:100%" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100">100%</div> 
+              </div>              
+            </div>
+
+            <div class="mb-3">
+              <label > JavaScript</label>
+              <div class="progress">
+                <div class="progress-bar bg-primary" style="width:90%" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">90%</div> 
+              </div>              
+            </div>
+
+            <div class="mb-3">
+              <label > PHP</label>
+              <div class="progress">
+                <div class="progress-bar bg-primary" style="width:85%" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">85%</div> 
+              </div>              
+            </div>
+
+            <div class="mb-3">
+              <label > Vue</label>
+              <div class="progress">
+                <div class="progress-bar bg-primary" style="width:95%" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95">95%</div> 
+              </div>              
+            </div>
+
+            <div class="mb-3">
+              <label > React</label>
+              <div class="progress">
+                <div class="progress-bar bg-primary" style="width:90%" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">90%</div> 
+              </div>              
+            </div>
+
+            <div class="mb-3">
+              <label > Laravel</label>
+              <div class="progress">
+                <div class="progress-bar bg-primary" style="width:100%" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100">100%</div> 
+              </div>              
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!--Portafolio-->
+      <main class="row justify-content-center pt-5 sec-portafolio-js" id="proyectos">
+
+        <div class="col-10 col-md-4 order-2 order-md-1 ">
+          <div class="row">
+            <a class="col-12 mb-3 portafolio-item" href="" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
+              <img src="img/Portfolio-03.png" alt="" class="w-100 img-btn-modal-js">
+            </a>
+
+            <a class="col-12 mb-3 portafolio-item" href="" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
+              <img src="img/Portfolio-04.png" alt="" class="w-100 img-btn-modal-js ">
+            </a>
+
+            <a class="col-12 mb-3 portafolio-item" href="" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
+              <img src="img/Portfolio-01.png" alt="" class="w-100 img-btn-modal-js">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-10 col-md-8 order-1 order-md-2 ">
+          <div class="row">
+            <h2 class="col-12 py-3 text-end display-4 ">Proyectos</h2>
+
+            <a class="col-12 mb-3 portafolio-item" href="" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
+              <img src="img/Portfolio-05.png" alt="" class="w-100 img-btn-modal-js">
+            </a>
+
+            <a class="col-12 col-md-6 mb-3 portafolio-item" href="" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
+              <img src="img/Portfolio–02.png" alt="" class="w-100 img-btn-modal-js">
+            </a>
+
+            <a class="col-12 col-md-6 mb-3 portafolio-item" href="" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
+              <img src="img/Portfolio-06.png" alt="" class="w-100 img-btn-modal-js">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-9 modal fade" id="modal-portfolio">
+          <div class="modal-dialog position-relative modal-dialog-centered">
+            <img src="" alt="" class="w-100 img-modal-js">
+          </div>
+        </div> 
+
+      </main>
+         
     </div>
+
+    <!--Footer-->
+    <footer class="bg-dark text-light text-center p-4 mt-5"> &#169; Sol Carretero 2022 - TP Argentina Programa </footer>
+
+
+    
+
+
+
+  
 
 
 
 
     <!--Javascript Boostrap --> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script src="tp-portafolio.js"></script>
   </body>
 </html>
 

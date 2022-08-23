@@ -44,9 +44,20 @@
 }
 
 .header-main {
-    margin-top: 10%;
-     
-    
+  margin-top: 15%;
+      
+}
+
+.titulo-portafolio{
+  align-items: flex-end;
+}
+
+
+
+.tarjeta{
+  border-top-left-radius:  0.375rem;
+  border-bottom-left-radius:0.375rem;
+  
 }
 
 @media (max-width: 768px) {
@@ -56,8 +67,40 @@
 
   .photo-frame {
   font-size: 11px;} 
+
+  .header-main {
+    margin-top: 25%;
+           
+  }
+
+  .titulo-portafolio{
+    text-align: center;
+  }
+
+  
+
+ .tarjeta{
+  border-bottom-left-radius:0;
+  border-top-right-radius:0.375rem;
+  }
   
  } 
+
+ .icon-formacion{
+  --box-size: 70px;
+  width: var(--box-size);
+  height:var(--box-size);
+  padding: 10px;
+ }
+
+ .portafolio-item > img {
+  transition: 0.4s transform;
+}
+
+.portafolio-item:hover > img {
+  transform: scale(0.96);
+
+}
   
  
 
