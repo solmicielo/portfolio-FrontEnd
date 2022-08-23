@@ -48,10 +48,6 @@
       
 }
 
-.titulo-portafolio{
-  align-items: flex-end;
-}
-
 
 
 .tarjeta{
@@ -73,11 +69,7 @@
            
   }
 
-  .titulo-portafolio{
-    text-align: center;
-  }
-
-  
+   
 
  .tarjeta{
   border-bottom-left-radius:0;
